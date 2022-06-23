@@ -18,7 +18,7 @@ const SignUp: FC<Props> = ({ setIsSignUp }) => {
         window.location.reload()
       })
       .catch((e) => {
-        console.log(e)
+        alert('정확한 닉네임을 입력하세요.')
       })
   }
 
